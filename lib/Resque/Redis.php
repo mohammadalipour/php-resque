@@ -162,7 +162,7 @@ class Resque_Redis
 		$parts = parse_url($dsn);
 
 		// Check the URI scheme
-		if (isset($parts['scheme'])) {
+		if (!isset($parts['scheme'])) {
 			throw new \InvalidArgumentException("Invalid DSN");
 		}
 
