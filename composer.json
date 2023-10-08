@@ -1,5 +1,5 @@
 {
-	"name": "bmdevel/php-resque",
+	"name": "mohammadap/php-resque",
 	"version": "1.3.0",
 	"type": "library",
 	"description": "Redis backed library for creating background jobs and processing them later. Based on resque for Ruby.",
